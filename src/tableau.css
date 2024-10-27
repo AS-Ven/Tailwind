@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 13rem;
+    width: 13rem;
+    border: 0.5rem solid gray;
+    background-color: black;
+    padding: 0.25rem;
+}
+
+.w {
+    background-color: white;
+    margin: 0.25rem;
+}
+
+.y {
+    background-color: yellow;
+    margin: 0.25rem;
+}
+
+.r {
+    background-color: red;
+    margin: 0.25rem;
+}
+
+.g {
+    background-color: grey;
+    margin: 0.25rem;
+}
+
+.db {
+    background-color: darkblue;
+    margin: 0.25rem;
+}
+
+.fr {
+    display: flex;
+    flex-direction: row;
+}
+
+.fc {
+    display: flex;
+    flex-direction: column;
+}
+
+.w1 {
+    width: 0.5rem;
+}
+
+.w2 {
+    width: 1rem;
+}
+
+.w3 {
+    width: 1.5rem;
+}
+
+.w5 {
+    width: 2.5rem;
+}
+
+.w6 {
+    width: 3rem;
+}
+
+.w7 {
+    width: 3.5rem;
+}
+
+.w10 {
+    width: 5rem;
+}
+
+.w13 {
+    width: 6.5rem;
+}
+
+.w15 {
+    width: 7.5rem;
+}
+
+.h1 {
+    height: 0.5rem;
+}
+
+.h2 {
+    height: 1rem;
+}
+
+.h3 {
+    height: 1.5rem;
+}
+
+.h4 {
+    height: 2rem;
+}
+
+.h5 {
+    height: 2.5rem;
+}
+
+.h6 {
+    height: 3rem;
+}
+
+.h7 {
+    height: 3.5rem;
+}
+
+.h8 {
+    height: 4rem;
+}
+
+.h13 {
+    height: 6.5rem;
+}
+
+.h20 {
+    height: 10rem;
+}
+
+@media (min-width: 900px) {
+    .frame {
+        height: 40rem;
+        width: 40rem;
+        border: 1.5rem solid gray;
+}
+    
+    .w {
+        margin: 0.75rem;
+    }
+    
+    .y {
+        margin: 0.75rem;
+    }
+    
+    .r {
+        margin: 0.75rem;
+    }
+    
+    .g {
+        margin: 0.75rem;
+    }
+    
+    .db {
+        margin: 0.75rem;
+    }
+    
+    .w1 {
+        width: 1.5rem;
+    }
+    
+    .w2 {
+        width: 3rem;
+    }
+    
+    .w3 {
+        width: 4.5rem;
+    }
+    
+    .w5 {
+        width: 7.5rem;
+    }
+    
+    .w6 {
+        width: 9rem;
+    }
+    
+    .w7 {
+        width: 10.5rem;
+    }
+    
+    .w10 {
+        width: 15rem;
+    }
+    
+    .w13 {
+        width: 19.5rem;
+    }
+    
+    .w15 {
+        width: 22.5rem;
+    }
+    
+    .h1 {
+        height: 1.5rem;
+    }
+    
+    .h2 {
+        height: 3rem;
+    }
+    
+    .h3 {
+        height: 4.5rem;
+    }
+    
+    .h4 {
+        height: 6rem;
+    }
+    
+    .h5 {
+        height: 7.5rem;
+    }
+    
+    .h6 {
+        height: 9rem;
+    }
+    
+    .h7 {
+        height: 10.5rem;
+    }
+    
+    .h8 {
+        height: 12rem;
+    }
+    
+    .h13 {
+        height: 19.5rem;
+    }
+    
+    .h20 {
+        height: 30rem;
+    }
+}
